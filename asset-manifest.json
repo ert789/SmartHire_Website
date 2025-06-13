@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/SmartHire_Website/static/css/main.ebbbfa6e.css",
+    "main.js": "/SmartHire_Website/static/js/main.8d537732.js",
+    "static/js/488.a38fd13c.chunk.js": "/SmartHire_Website/static/js/488.a38fd13c.chunk.js",
+    "static/media/login2.jpeg": "/SmartHire_Website/static/media/login2.25b4e2d124f2c9480947.jpeg",
+    "static/media/1st.jpeg": "/SmartHire_Website/static/media/1st.7c64264da3ad816a97fb.jpeg",
+    "static/media/2nd.jpeg": "/SmartHire_Website/static/media/2nd.b9a373882a5790f205d5.jpeg",
+    "static/media/SMLOGO.png": "/SmartHire_Website/static/media/SMLOGO.4eb115a69492031dfea7.png",
+    "static/media/candidate-icon.png": "/SmartHire_Website/static/media/candidate-icon.37b4648d8a77b7625c28.png",
+    "index.html": "/SmartHire_Website/index.html",
+    "main.ebbbfa6e.css.map": "/SmartHire_Website/static/css/main.ebbbfa6e.css.map",
+    "main.8d537732.js.map": "/SmartHire_Website/static/js/main.8d537732.js.map",
+    "488.a38fd13c.chunk.js.map": "/SmartHire_Website/static/js/488.a38fd13c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebbbfa6e.css",
+    "static/js/main.8d537732.js"
+  ]
+}
