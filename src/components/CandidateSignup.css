@@ -1,0 +1,115 @@
+/* CandidateSignup.css */
+.candidate-body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+   overflow: hidden;
+  height: 100vh;
+}
+
+.candidate-signin-content {
+  display: flex;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  
+}
+
+.candidate-text-center-sign {
+  font-weight: bold;
+  color: #061f47;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.candidate-signin-image-side {
+  display: none;
+}
+
+.candidate-signin-image {
+  width: 90%;
+  object-fit: cover;
+}
+
+.candidate-form-side {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.candidate-form-container-signin {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px; /* Maximum width for the form */
+}
+
+.candidate-signup-button {
+  font-size: 16px;
+  background-color: #061f47;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+}
+
+.candidate-sign {
+  font-weight: bold;
+  color: #061f47;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.candidate-error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.candidate-success-message {
+  color: green;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .candidate-form-container-signin {
+    padding: 30px;
+    margin-top: 0;
+  }
+  
+  .candidate-text-center-sign {
+    margin-top: 30px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .candidate-signin-image-side {
+    display: flex; /* Show image on larger screens */
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .candidate-form-side {
+    width: 50%;
+  }
+  
+  .candidate-login-content {
+    flex-direction: row;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .candidate-form-container-signin {
+    padding: 40px;
+  }
+}

@@ -1,0 +1,58 @@
+/* VerifyCode.css */
+
+.container {
+    max-width: 400px;
+    margin: 150px 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Times New Roman", Times, serif;
+}
+
+.backgroundd {
+    background-color: #061f47;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #061f47;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.vbutton {
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    background-color: #061f47;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 15px
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}

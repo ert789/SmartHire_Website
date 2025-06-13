@@ -1,0 +1,70 @@
+/* Default Styles */
+.role-selection-container {
+  padding: 60px 20px;
+  background-color: #061f47;
+  height: auto; /* Adjust height based on content */
+  min-height: 85vh; /* Ensure it takes at least the full screen height */ 
+  font-family: "Times New Roman", Times, serif;
+}
+.role-selection-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.role-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.role-card {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #061f47;
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 150px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.role-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.role-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+.role-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #061f47;
+}
+
+/* Media Query for Large Screens */
+@media (min-width: 1024px) {
+  .role-options {
+    gap: 40px; /* Increase gap between cards */
+  }
+  .role-card {
+    padding: 30px; /* Increase padding for larger boxes */
+    width: 200px; /* Increase width */
+  }
+  .role-icon {
+    width: 100px; /* Increase icon size */
+    height: 100px;
+  }
+  .role-name {
+    font-size: 22px; /* Larger text for role name */
+  }
+}
+
+/* Additional Media Query for Large Screens to Further Increase Gap */
+@media (min-width: 1024px) {
+  .role-options {
+    gap: 150px; /* Increase gap between cards for large screens */
+  }
+}

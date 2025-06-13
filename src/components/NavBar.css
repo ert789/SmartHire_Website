@@ -1,0 +1,64 @@
+/* Default styles */
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: #061f47;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar-logo-img {
+  height: 38px;
+  margin-right: 6px;
+}
+
+.navbar-title {
+  margin: 0;
+  font-size: 2rem; /* Default font size */
+  color: white;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+  padding: 0 20px;
+  font-size: 1.6rem; /* Default font size */
+}
+
+.navbar-link:last-child {
+  padding-right: 1rem;
+}
+
+/* Styles for active link */
+.navbar-link.active-link {
+  text-decoration: underline;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .navbar-title {
+    font-size: 1.2rem; /* Smaller font size for extra small screens */
+  }
+
+  .navbar-link {
+    font-size: 1rem; /* Smaller font size for links */
+    padding: 0 10px; /* Adjust padding for better spacing */
+  }
+
+  .navbar-logo-img {
+    height: 30px; /* Reduce logo size slightly */
+  }
+}
+
+.logout-link {
+  cursor: pointer;
+}

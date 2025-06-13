@@ -1,0 +1,224 @@
+/* Home.css */
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #061f47;
+  padding: 50px 50px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.left-side-text {
+  flex: 1;
+  max-width: 659px;
+  text-align: left;
+}
+
+.main-heading {
+  color: white;
+  text-align: left;
+  font-size: 5.4rem;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.lead-text {
+  color: white;
+  font-size: 1.7rem;
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.btn-custom {
+  background-color: #a8caff;
+  color: #061f47;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 6px 16px;
+  width: auto;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.right-side-image {
+  flex: 1;
+  max-width: 600px;
+  text-align: center;
+}
+
+.left-side-image{
+  flex: 1;
+  max-width: 600px;
+  text-align: center;
+}
+
+.image-custom {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.hr-style {
+  border: 1px solid rgb(114, 166, 249);
+  margin: 30px 0px;
+}
+
+.section-choose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.text-center-custom {
+  text-align: center;
+}
+
+.card-custom {
+  min-width: 350px;
+  max-width: 400px;
+  background-color: #a8caff;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h4 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* Responsive Styles */
+
+/* For medium-sized screens (tablet or smaller) */
+@media (max-width: 992px) {
+  .section {
+    gap: 50px;
+    flex-direction: row;
+  }
+
+  .main-heading {
+    font-size: 4.5rem;
+  }
+
+  .lead-text {
+    font-size: 1.5rem;
+  }
+
+  .right-side-image {
+    max-width: 450px;  /* Smaller image */
+  }
+
+  .left-side-image{
+    max-width: 450px;  /* Smaller image */
+
+  }
+
+  .section-choose {
+    gap: 50px;
+  }
+
+  .card-custom {
+    min-width: 300px;
+    max-width: 350px;
+  }
+}
+
+/* For smaller screens (mobile view) */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 20px;
+  }
+
+  .main-heading {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .lead-text {
+    font-size: 1.2rem;
+  }
+
+  .section {
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .section-choose {
+    gap: 20px;
+  }
+
+  .left-side-text {
+    text-align: center;
+  }
+
+  .right-side-image {
+    text-align: center;
+    max-width: 400px;
+  }
+
+  .image-custom {
+    max-width: 100%;
+  }
+
+  .card-custom {
+    min-width: 280px;
+    max-width: 320px;
+  }
+
+  .left-side-image {
+    display: none; /* Hide the image on smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .main-heading {
+    font-size: 3rem;
+  }
+
+  .lead-text {
+    font-size: 1rem;
+  }
+
+  .btn-custom {
+    font-size: 0.9rem;
+    padding: 6px 14px;
+  }
+
+  .section {
+    gap: 10px;
+  }
+
+  .section-choose {
+    gap: 10px;
+  }
+
+  .card-custom {
+    min-width: 260px;
+    max-width: 300px;
+  }
+}

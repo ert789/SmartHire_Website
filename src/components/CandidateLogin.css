@@ -1,0 +1,111 @@
+.candidate-login-body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+   overflow: hidden;
+  height: 100vh;
+
+  }
+
+.candidate-login-content {
+  display: flex;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.candidate-login-text-center {
+  font-weight: bold;
+  color: #061f47;
+  text-align: center;
+}
+
+.candidate-login-image-side {
+  display: none;
+}
+
+.candidate-login-image {
+  width: 90%;
+  object-fit: cover;
+}
+
+.candidate-login-form-side {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.candidate-login-form {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.candidate-login-button {
+  font-size: 16px;
+  background-color: #061f47;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+}
+
+.candidate-login-sign,
+.candidate-login-forgot {
+  font-weight: bold;
+  color: #061f47;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.candidate-login-error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .candidate-login-form {
+    padding: 30px;
+  }
+  
+  .candidate-login-text-center {
+    margin-top: 30px;
+  }
+  
+  .candidate-login-sign,
+  .candidate-login-forgot {
+    font-size: 1rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .candidate-login-image-side {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .candidate-login-form-side {
+    width: 50%;
+  }
+  
+  .candidate-login-content {
+    flex-direction: row;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .candidate-login-form {
+    padding: 40px;
+  }
+}

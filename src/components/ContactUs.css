@@ -1,0 +1,89 @@
+.contact-us-container {
+    background-color: #061f47; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    padding: 20px;
+    color: white; 
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.contact-us-heading {
+    font-size: 2rem; 
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.contact-us-form {
+    background-color: white; 
+    color: #061f47; 
+    border-radius: 8px;
+    padding: 20px 25px;
+    width: 100%;
+    max-width: 500px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+
+.contact-us-form .btn {
+    margin-top: 0px; 
+    background-color: #061f47;
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 1rem; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+.contact-us-form .btn:hover {
+    background-color: #05193d; 
+}
+
+.alert {
+    margin-top: 15px;
+}
+
+.contact-us-form textarea {
+    min-height: 100px; 
+    min-width: 100%; 
+    resize: vertical; 
+    font-size: 1rem; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+
+/* Adjust form height and margins for smaller screens */
+@media (max-width: 768px) {
+    .contact-us-form {
+        padding: 15px 20px; 
+        max-width: 90%; 
+        margin: 20px auto; 
+    }
+
+    .contact-us-form textarea {
+        min-height: 80px; 
+    }
+}
+
+/* For extra small screens (e.g., phones) */
+@media (max-width: 480px) {
+    .contact-us-form {
+        padding: 10px 15px; 
+        max-width: 95%; 
+    }
+
+    .contact-us-container {
+        padding: 10px; 
+    }
+
+    .contact-us-heading {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+}

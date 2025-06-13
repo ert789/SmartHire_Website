@@ -1,0 +1,111 @@
+.hr-login-body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f4f4f9;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.hr-login-content {
+  display: flex;
+  width: 100%;
+}
+
+.hr-login-text-center {
+  text-align: center;
+  color: #061f47;
+  font-weight: bold;
+}
+
+.hr-login-image-side {
+  display: none;
+}
+
+.hr-login-image {
+  width: 90%;
+  object-fit: cover;
+}
+
+.hr-login-form-side {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.hr-login-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hr-login-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #061f47;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.hr-login-button:hover {
+  opacity: 0.9;
+}
+
+.hr-login-button:focus {
+  outline: none;
+}
+
+.hr-login-forgot {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+  color: #061f47;
+}
+
+.hr-login-error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .hr-login-form {
+    padding: 30px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .hr-login-image-side {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .hr-login-form-side {
+    width: 50%;
+  }
+  
+  .hr-login-content {
+    flex-direction: row;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .hr-login-form {
+    padding: 40px;
+  }
+}
